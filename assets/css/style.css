@@ -7,7 +7,7 @@
 /*GENERAL*/
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: gray;
+    background-color: rgb(223, 223, 223);
 }
 /*HEADER*/
 header {
@@ -28,8 +28,7 @@ main {
     width: 1000px;
     margin: 0 auto;
     margin-top: 30px;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+    border-radius: 5px;
 }
 main div {
     padding: 20px;
@@ -50,3 +49,73 @@ main div a {
     margin-left: 3px;
 }
 /*SECTION*/
+main section {
+   box-sizing: none ;
+    border-top: 2px solid gray ;
+    padding: 40px;
+    padding-bottom: 1px;
+    line-height: 60px;
+}
+main section h2 {
+    vertical-align: middle;
+    
+}
+.firstSpan {
+    font-size: 16px;
+    vertical-align: middle;
+}
+.firstDiv {
+    color: green;
+    border: 1px solid green;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    padding:  1px;
+    text-align: center;
+    line-height: 21px;
+}
+.alternativeFirstDiv {
+    color: red;
+    border: 1px solid red;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    padding:  1px;
+    text-align: center;
+    line-height: 21px;
+}
+section h2 {
+    margin-left: 2px;
+}
+.secondDiv {
+    display: inline;
+    padding: 0;
+}
+.secondDiv p {
+    display: inline;
+    font-size: 20px;
+}
+.secondDiv p span {
+    color: white;
+    background-color: rgb(68, 180, 255);
+    padding: 9px;
+    font-size: 17px ;
+    border-radius: 50px;
+}
+#secondSpan {
+    background-color: blueviolet;
+}
+#terzoSpan {
+    background-color: rgb(28, 179, 141);
+}
+#quartoSpan {
+    background-color: orange;
+}
+#quintoSpan {
+    background-color: rgb(229, 67, 235);
+}
+#sestoSpan {
+    background-color: rgb(135, 202, 48);
+}
