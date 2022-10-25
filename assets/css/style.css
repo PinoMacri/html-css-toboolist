@@ -51,7 +51,7 @@ main div a {
 /*SECTION*/
 main section {
    box-sizing: none ;
-    border-top: 2px solid gray ;
+    border-top: 2px solid rgb(223, 223, 223) ;
     padding: 40px;
     padding-bottom: 1px;
     line-height: 60px;
